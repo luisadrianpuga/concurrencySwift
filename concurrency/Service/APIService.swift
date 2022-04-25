@@ -4,10 +4,11 @@
 //
 //  Created by Luis Adrian on 4/25/22.
 //
-
+//API Service class
 import Foundation
-
+//Using this struct we can process JSON Data
 struct APIService {
+    //Initialize URL String
     let urlString: String
     
     func getJSON<T: Decodable>(dateDecodingStrategy: JSONDecoder.DateDecodingStrategy = .deferredToDate,
