@@ -21,6 +21,7 @@
 		F95160C02817632800717611 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95160BF2817632800717611 /* MockData.swift */; };
 		F95160C22817666700717611 /* PostsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95160C12817666700717611 /* PostsListViewModel.swift */; };
 		F95160C42817674100717611 /* PostsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95160C32817674100717611 /* PostsListView.swift */; };
+		F95160C628185C0E00717611 /* UserAndPosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95160C528185C0D00717611 /* UserAndPosts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		F95160BF2817632800717611 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		F95160C12817666700717611 /* PostsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsListViewModel.swift; sourceTree = "<group>"; };
 		F95160C32817674100717611 /* PostsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsListView.swift; sourceTree = "<group>"; };
+		F95160C528185C0D00717611 /* UserAndPosts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAndPosts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				F95160A52817471A00717611 /* users.swift */,
 				F95160A7281747AE00717611 /* post.swift */,
+				F95160C528185C0D00717611 /* UserAndPosts.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F95160C628185C0E00717611 /* UserAndPosts.swift in Sources */,
 				F9516098281744FF00717611 /* UsersListView.swift in Sources */,
 				F95160C42817674100717611 /* PostsListView.swift in Sources */,
 				F95160BE2817630100717611 /* Bundle+Extension.swift in Sources */,
