@@ -11,7 +11,10 @@ import SwiftUI
 struct concurrencyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            UsersListView()
+                .onAppear{
+                    UserDefaults.standard.setValue(false, forKey: "UIConstraintBasedLayoutLogUnsatisfiable")
+                }
         }
     }
 }
