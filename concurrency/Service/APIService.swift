@@ -8,12 +8,11 @@
 import Foundation
 //Using this struct we can process JSON Data
 struct APIService {
-    //Initialize URL String
     let urlString: String
     
     func getJSON<T: Decodable>(dateDecodingStrategy: JSONDecoder.DateDecodingStrategy = .deferredToDate,
                                 keyDecodingStrategy: JSONDecoder.KeyDecodingStrategy = .useDefaultKeys,
-                                completion: @escaping (Result<T, APIError>) -> Void){
+                                completion: @escaping (Result<T,APIError>) -> Void) {
         guard
             let url = URL(string: urlString)
         else {
@@ -49,6 +48,7 @@ struct APIService {
             } catch {
                 completion(.failure(.decodingError))
             }
+
         }
         .resume()
     }
